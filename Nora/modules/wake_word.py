@@ -5,7 +5,7 @@ import struct
 def listen_for_wake_word(mic_index=None):
     # Initialize Porcupine wake word engine
     porcupine = pvporcupine.create(
-        access_key="duSU6/srqPaDuzzTNxFBqCRRJILsjwvGd9qnP3Q0+mtXbxSrnzgyZg==",
+        access_key="", # Picovoice Key
         keyword_paths=["Hey-Nora_en_windows_v3_0_0\Hey-Nora_en_windows_v3_0_0.ppn"]
     )
 
@@ -39,3 +39,4 @@ def listen_for_wake_word(mic_index=None):
         audio_stream.close()
         pa.terminate()
         porcupine.delete()
+
