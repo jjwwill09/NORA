@@ -1,0 +1,27 @@
+#THIS WAS MADE BY JESSE WILLIAMS
+
+# --- Wake Word Detection ---
+
+# --- Core AI ---
+faster-whisper
+soundfile
+requests
+numpy
+sounddevice
+pyttsx3
+
+# --- Enhancements ---
+beautifulsoup4
+pandas
+lxml
+pyautogui
+schedule
+platformdirs
+
+# --- GUI ---
+tk
+pystray
+Pillow
+
+# --- Cross-platform compatibility ---
+pyaudio
